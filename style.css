@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: poppins;
+    font-family:  Arial, sans-serif;
     background-color: hsl(0, 0%, 95%);
 }
 
@@ -19,7 +19,6 @@ body{
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin: 10px;
-    font-family: inherit;
 }
 
 button[type="submit"]{
@@ -28,7 +27,6 @@ button[type="submit"]{
  color: #fff;
  font-size: 2rem;
  font-weight: bold;
- font-family: inherit;
  border: none;
  border-radius: 5px;
  cursor: pointer;
@@ -51,6 +49,7 @@ button[type="submit"]:hover{
 
 h1{
     margin-top: 0;
+    margin-bottom: 25px;
 }
 
 p{
@@ -60,7 +59,7 @@ p{
 }
 
 .cityDisplay, .tempDisplay{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 25px;
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
@@ -87,3 +86,7 @@ p{
     font-weight: bold;
     color: rgba(0, 0, 0, 0.75);
 }
+
+
+
+
